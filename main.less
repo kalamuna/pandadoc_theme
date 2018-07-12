@@ -1,0 +1,144 @@
+@kala-blue: #3f96d6;
+@kala-violet: #6a4f9f;
+@kala-magenta: #d54688;
+@kala-orange: #ea8b35;
+@kala-yellow: #ecca34;
+@kala-green: #94bf32;
+@gray-dark: #333333;
+@gray-darker: #1a1a1a;
+
+.imports {
+    @import url('https://fonts.googleapis.com/css?family=Dosis|Source+Sans+Pro');
+}
+
+.document-page__sheet {
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.cover-img {
+    width: 100%;
+}
+
+.cover-img img {
+    min-height: 0;
+    max-height: 100%;
+    width: 300px;
+    height: auto;
+    position: relative;
+    left: -2em;
+}
+
+.doc-block__content p {
+  color: @gray-dark;
+}
+
+.doc-block__content p a {
+  color: @gray-darker;
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Dosis', sans-serif;
+    margin-bottom: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+  color: @kala-blue;
+}
+
+h2 {font-size: 2.827em;}
+
+h3 {font-size: 1.999em;}
+
+h4 {font-size: 1.414em;}
+
+small, .font_small {font-size: 0.707em;}
+
+.doc-block__content {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.user-intro {
+    margin-bottom: 2rem;
+}
+
+.user-intro .doc-block__content {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.999em;
+  line-height: 1.34;
+}
+
+.doc-block__content p {
+    color: @gray-dark;
+}
+
+.doc-block__content p a {
+    color: @gray-darker;
+    text-decoration: underline;
+}
+
+.user-kala-blue p,
+.user-kala-blue h1,
+.user-kala-blue h2,
+.user-kala-blue h3,
+.user-kala-blue h4,
+.user-kala-blue h5 {
+  color: @kala-blue;
+}
+
+.user-kala-magenta p,
+.user-kala-magenta h1,
+.user-kala-magenta h2,
+.user-kala-magenta h3,
+.user-kala-magenta h4,
+.user-kala-magenta h5,
+.user-kala-magenta p {
+  color: @kala-magenta;
+}
+
+.user-two-up .grid__item {
+    padding-left: 0;
+}
+
+.doc-block__content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.doc-block__content li {
+    line-height: 1.2;
+    padding: 0.5rem 0 0.5rem 1rem;
+    margin: 0 0 2px 0;
+    border-bottom: 1px #eee solid;
+    border-left: 2px @kala-blue solid;
+    max-width: 28em;
+}
+
+.user-section-divider p {
+  color: #fff;
+  font-family: 'Dosis', sans-serif;
+  font-size: 3.998em;
+}
+
+.user-section-divider.user-kala-magenta {
+  background-color: @kala-magenta;
+}
+
+.user-section-divider.user-kala-blue {
+    background-color: @kala-blue;
+}
+
+.user-thankyou img {
+    max-width:50%;
+}
+.user-featured-bio-table {
+    margin-top:0;
+    padding-top: 0;
+    border-bottom: 1px #dedede solid;
+    padding-bottom: 0;
+    margin-bottom: 3rem;
+}
